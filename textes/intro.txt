@@ -1,0 +1,5 @@
+Dans les grands halls du chateau de [province_01], les grands chandeliers de crystals valsaient au rythme de violons.
+La fête était somptueuse et le beau monde de [nom_du_monde] s'était paré de ses plus beau atours pour celebrer comme il se devaient, cet évènement exceptionnel.
+De nombreuses personnes dansaient au centre de la grande salle tandis que d'autres profitaient des nombreux mets mis à la disposition des convives.
+
+Le chatelin [m]

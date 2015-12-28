@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 14: invalid syntax
+    nIntro u"Dans les grands halls du chateau de MACHINTRUC, les grands chandeliers de crystals valsaient au rythme de violons. La fête était somptueuse et le beau monde de CHOSE s'était paré de ses plus beau atours pour celebrer comme il se devaient cet évènement exceptionnel."
+    
+
+Ren'Py Version: Ren'Py 6.99.7.858

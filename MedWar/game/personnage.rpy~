@@ -1,0 +1,7 @@
+##### personnage principal #####
+
+define nomDuJoueur = "joueur"
+define couleurDuJoueur = "#306090"
+define joueur = Character("nomDuJoueur",dynamic = True,color=couleurDuJoueur)
+
+##### Narrateurs #####

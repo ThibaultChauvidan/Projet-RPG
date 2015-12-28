@@ -1,0 +1,19 @@
+﻿# Vous pouvez placer le script de votre jeu dans ce fichier.
+
+# Déclarez sous cette ligne les images, avec l'instruction 'image'
+# ex: image eileen heureuse = "eileen_heureuse.png"
+
+# Déclarez les personnages utilisés dans le jeu.
+define nIntro = Character(None ,kind = nvl, color="#505050")
+
+define m = "ceci est un test"
+# Le jeu commence ici
+label start:
+    nIntro "Dans les méandres d'un palais luxueux, les nobles et les petites gens sont en liesse."
+    nIntro "Car en ce jour béni des Dieux, "
+    $ texte = lecteur()
+    $ nIntro(texte)
+    $ ecrivain(texte)
+    nIntro "Dans les grands halls du chateau de MACHINTRUC, les grands chandeliers de crystals valsaient au rythme de violons."
+    nIntro "La fête était somptueuse et le beau monde de CHOSE s'était paré de ses plus beau atours pour celebrer comme il se devaient cet évènement exceptionnel."
+    return

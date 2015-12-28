@@ -1,0 +1,21 @@
+#charge en mémoire les différents textes#
+
+init python:
+    import os
+    os.chdir("C:/Users/chaos/OneDrive/Outils/Projet-RPG/textes")
+    test = "test.txt"
+    test2 ="testecrit.txt"
+    
+    def lecteur():
+        lecteur = open(test,"r")
+        texte = lecteur.read()
+        lecteur.close()
+        return texte.decode("UTF-8")
+    #fin def
+    def ecrivain(st):
+        lecteur = open(test2,"w")
+        st.encode("UTF-8")
+        lecteur.write(st)
+        lecteur.close()
+        return texte
+    #fin def
